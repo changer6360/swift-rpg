@@ -12,6 +12,11 @@
 		0130B7661C7B8E59004C62ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0130B7641C7B8E59004C62ED /* Main.storyboard */; };
 		0130B7681C7B8E59004C62ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0130B7671C7B8E59004C62ED /* Assets.xcassets */; };
 		0130B76B1C7B8E59004C62ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0130B7691C7B8E59004C62ED /* LaunchScreen.storyboard */; };
+		0130B7751C7B8FA5004C62ED /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0130B7741C7B8FA5004C62ED /* Character.swift */; };
+		0130B7771C7B92B5004C62ED /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0130B7761C7B92B5004C62ED /* Player.swift */; };
+		018852351C7F75B400B475E9 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018852341C7F75B400B475E9 /* Enemy.swift */; };
+		018852371C7F75CC00B475E9 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018852361C7F75CC00B475E9 /* Kimara.swift */; };
+		01F3D8D91C7F794100C248F4 /* DevilWizard .swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F3D8D81C7F794100C248F4 /* DevilWizard .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		0130B7671C7B8E59004C62ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0130B76A1C7B8E59004C62ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0130B76C1C7B8E59004C62ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0130B7741C7B8FA5004C62ED /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0130B7761C7B92B5004C62ED /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		018852341C7F75B400B475E9 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		018852361C7F75CC00B475E9 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		01F3D8D81C7F794100C248F4 /* DevilWizard .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DevilWizard .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				0130B7671C7B8E59004C62ED /* Assets.xcassets */,
 				0130B7691C7B8E59004C62ED /* LaunchScreen.storyboard */,
 				0130B76C1C7B8E59004C62ED /* Info.plist */,
+				0130B7741C7B8FA5004C62ED /* Character.swift */,
+				0130B7761C7B92B5004C62ED /* Player.swift */,
+				018852341C7F75B400B475E9 /* Enemy.swift */,
+				018852361C7F75CC00B475E9 /* Kimara.swift */,
+				01F3D8D81C7F794100C248F4 /* DevilWizard .swift */,
 			);
 			path = "RPG OOP";
 			sourceTree = "<group>";
@@ -97,6 +112,7 @@
 					0130B75C1C7B8E59004C62ED = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 9Q6VR23WUE;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -136,6 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0130B7771C7B92B5004C62ED /* Player.swift in Sources */,
+				018852351C7F75B400B475E9 /* Enemy.swift in Sources */,
+				01F3D8D91C7F794100C248F4 /* DevilWizard .swift in Sources */,
+				018852371C7F75CC00B475E9 /* Kimara.swift in Sources */,
+				0130B7751C7B8FA5004C62ED /* Character.swift in Sources */,
 				0130B7631C7B8E59004C62ED /* ViewController.swift in Sources */,
 				0130B7611C7B8E59004C62ED /* AppDelegate.swift in Sources */,
 			);
@@ -254,6 +275,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.RPG-OOP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -265,6 +287,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.RPG-OOP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -287,6 +310,7 @@
 				0130B7711C7B8E59004C62ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
