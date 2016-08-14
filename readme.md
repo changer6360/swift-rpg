@@ -8,6 +8,4 @@ Coming soon:
 - Attack animations
 - Sound effects
 
-![Screen Varian1](https://github.com/changer6360/swift-rpg/blob/master/images/screen1.png)!
-[Screen Variant 2](https://github.com/changer6360/swift-rpg/blob/master/images/screen2.png)!
-[Screen Variant 3](https://github.com/changer6360/swift-rpg/blob/master/images/screen3.png)!
+![Screen Varian1](https://github.com/changer6360/swift-rpg/blob/master/images/screen1.png)![Screen Variant 2](https://github.com/changer6360/swift-rpg/blob/master/images/screen2.png)![Screen Variant 3](https://github.com/changer6360/swift-rpg/blob/master/images/screen3.png)!
